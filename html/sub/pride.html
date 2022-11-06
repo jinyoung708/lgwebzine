@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset=UTF-8">
+    <link rel="canonical" href="http://페이지 주소">
+    <meta name="description" content="웹페이지 설명 작성"/>
+    <meta name="keywords" content="키워드, 키워드..." />
+    <meta name="author" content="페이지 작성자" />
+    <meta name="copyright" content="저작권자" />
+    <meta name="robots" content="index,follow" />
+    <meta name="robots" content="All" /> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>엘지웹진</title>
+    <link rel="stylesheet" href="../../assets/css/default.css">
+    <link rel="stylesheet" href="../../assets/css/sub.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> 
+    <![endif]-->
+    <script src="../../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../../assets/js/common.js"></script>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- header -->
+        <header id="header">
+            <dl class="skip_navi">
+                <dt class="blind"><strong>바로가기 메뉴</strong></dt>
+                <dd><a href="#content">본문 바로가기</a></dd>
+                <dd><a href="#gnb">주메뉴 바로가기</a></dd>
+            </dl>
+
+            <div class="gnb_header">
+                <div class="container">
+                    <div class="head_top">
+                        <h1 class="logo"><a href="#"><img src="../../assets/images/common/head_logo.png" alt="세솟는병원"></a></h1>
+                        <div class="txt_box">
+                            <span>2022. 09.  <br class="pc_hide">VOL.284</span>
+                            <div class="select_box">
+                                <a href="#" class="select_btn">지난호 보기</a>
+                                <ul class="list">
+                                    <li><a href="#">지난호</a></li>
+                                    <li><a href="#">지난호</a></li>
+                                    <li><a href="#">지난호</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="m_gnb_open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="gnb_box">
+                    <div class="container">
+                        <ul id="gnb" class="gnb">
+                            <li>
+                                <a href="#">insight</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">pride</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">TOGETHER</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">TOGETHER</a></li>
+                                    <li><a href="#">TOGETHER</a></li>
+                                    <li><a href="#">TOGETHER</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">people</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">life</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">life</a></li>
+                                    <li><a href="#">life</a></li>
+                                    <li><a href="#">life</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- [D] m_gnb안에 들어가는 항목은 js에서 작업 -->
+                        <ul id="mgnb" class="m_gnb"></ul>
+                    </div>
+                </div>
+                <div class="m_gnb_bg"></div>
+                <div class="gnb_bg"></div>
+            </div>
+        </header>
+        <!-- // header -->
+
+        <!-- content -->
+        <div id="content">
+            <div class="pride_wrap">
+                <!-- sub_top_txt -->
+                <div class="sub_top_txt black">
+                    <div class="container">
+                        <h2>
+                            <span class="ttl">PRIDE</span>
+                            <span class="txt">P-OLED 양산의 첫 걸음,<br>
+                                Auto 제품개발에서 시작합니다</span>
+                        </h2>
+                        <div class="bottom_box">
+                            <span class="date">2023-01-23</span>
+                            <div class="btn_box">
+                                <span>104 Likes</span>
+                                <!-- [D] 좋아요 클릭 시 active 클래스 추가 -->
+                                <a href="#" class="heart_btn"><span class="blind">좋아요</span></a>
+                                <a href="#" class="share_btn"><span class="blind">공유하기</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // sub_top_txt -->
+                
+                <div class="content_box">
+                    <section class="section1">
+                        <div class="img_box">
+                            <img src="../../assets/images/pride/img_pride01.jpg" alt="" class="m_hide">
+                            <img src="../../assets/images/pride/img_pride01_m.jpg" alt="" class="pc_hide">
+                        </div>
+                        <div class="quote_box">
+                            <p>P-OLED는 자동차 업계에서 가장 주목받고 있는 차량용 디스플레이 패널입니다.<br class="m_hide"> 
+                                LG디스플레이는 세계 최초로 차량용 P-OLED 개발에 성공한 데 이어, <br class="m_hide">
+                                이제는 그 노력의 결실을 하나씩 거두는 단계로 돌입했습니다. </p>
+                        </div>
+                    </section>
+                    <section class="section2">
+                        <div class="txt_box">
+                            <p class="ttl">고객가치 최우선이 우리 팀의 모토 </p>
+                            <p class="txt">올해부터 본격적으로 차량용 P-OLED 양산을 시작한 것인데요. 글로벌 프리미엄 완성차 업체들을 고객사로 확보하는 한편, 이들과의 공동 개발을 진행하고 있습니다. P-OLED는 자동차 업계에서 가장 주목 받고 있는 차량용 디스플레이 패널입니다. 유리가 아닌 플라스틱을 기판소재로 사용해, 구부리거나 휘는 등 형태 변화가 자유롭다는 것이 P-OLED의 가장 큰 특징인데요. 따라서, 운전자의 시야에 맞게 휘어진 커브드(Curved) 디스플레이를 구현할 수 있습니다. 또한 P-OLED는 곡면으로 이뤄진 차내에 가장 잘 어우러지는 디자인을 구현할 수 있다는 점에서 미래 지향적인 차량 디스플레이로 각광받고 있습니다.</p>
+                        </div>
+                    </section>
+                    <section class="section3">
+                        <div class="img_box m_hide"><img src="../../assets/images/pride/img_pride02.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/pride/img_pride02_m.jpg" alt=""></div>
+                    </section>
+                    <section class="section4">
+                        <div class="txt_box">
+                            <p class="txt">P-OLED의 장점은 이뿐만이 아닙니다. P-OLED는 OLED 특유의 초고화질을 그대로 보여주는데요. 픽셀 하나하나가 빛을 내기 때문에 깊이감 있는 ‘완벽한 블랙’을 구현할 수 있어, LCD 대비 한층 고급스럽게 색을 재현합니다. 곧 다가올 자율주행시대에는 차량 디스플레이로 영화, 드라마 등 다양한 엔터테인먼트 콘텐츠를 즐기는 시간이 더욱 늘어날 것으로 예상되는데요. P-OLED의 압도적인 화질은 좁은 차량 안에서도 실감나는 화면을 누릴 수 있게 해줍니다.</p>
+                        </div>
+                    </section>
+                    <section class="section5">
+                        <div class="img_box m_hide"><img src="../../assets/images/pride/img_pride03.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/pride/img_pride03_m.jpg" alt=""></div>
+                    </section>
+                    <section class="section6">
+                        <div class="txt_box">
+                            <p class="txt">시인성이 높고 시야각이 압도적으로 넓다는 점 또한 강점으로 꼽히는데요. 운전자가 어떤 상황에서도 디스플레이 정보를 정확하게 볼 수 있기 때문에, 높은 안전 기준이 요구되는 차량용 디스플레이로써 적합한 성능을 갖췄습니다. 또한 LG디스플레이의 차량용 P-OLED는 영하 30도에서부터 영상 95도에 이르는 극한의 온도에도 정상적으로 작동합니다. 덕분에 계절에 따라 온도 변화가 심한 차량 내부 환경에서도 안전하게 이용할 수 있습니다.</p>
+                            <p class="ttl">고객가치 최우선이 우리 팀의 모토 </p>
+                            <p class="txt">올해부터 본격적으로 차량용 P-OLED 양산을 시작한 것인데요. 글로벌 프리미엄 완성차 업체들을 고객사로 확보하는 한편, 이들과의 공동 개발을 진행하고 있습니다. P-OLED는 자동차 업계에서 가장 주목 받고 있는 차량용 디스플레이 패널입니다. 유리가 아닌 플라스틱을 기판소재로 사용해, 구부리거나 휘는 등 형태 변화가 자유롭다는 것이 P-OLED의 가장 큰 특징인데요. 따라서, 운전자의 시야에 맞게 휘어진 커브드(Curved) 디스플레이를 구현할 수 있습니다. 또한 P-OLED는 곡면으로 이뤄진 차내에 가장 잘 어우러지는 디자인을 구현할 수 있다는 점에서 미래 지향적인 차량 디스플레이로 각광받고 있습니다.</p>
+                        </div>
+                    </section>
+                    <div class="m_hide">
+                        <section class="flex_box section7">
+                            <div class="txt_box">
+                                <p class="txt">LG디스플레이의 차량용 P-OLED 패널은 ‘눈이 편한 디스플레이’로 인정 받기도 했는데요. 글로벌 기술평가 기관인 TUV라인란드는 LG디스플레이 P-OLED 패널에 대해 ‘아이 컴포트 디스플레이(Eye Comfort Display)’ 인증을 부여했습니다. LG디스플레이의 차량용 P-OLED는 빛 반사도, 블루라이트 방출량, 화질 등 세 가지 항목으로 진행된 인증 테스트에서 모두 기준치를 충족했습니다.</p>
+                            </div>
+                            <div class="img_box"><img src="../../assets/images/pride/img_pride04.jpg" alt=""></div>
+                        </section>
+                        <section class="section8">
+                            <div class="img_box"><img src="../../assets/images/pride/img_pride05.jpg" alt=""></div>
+                        </section>
+                    </div>
+                    <div class="pc_hide">
+                        <section class="section8">
+                            <div class="img_box"><img src="../../assets/images/pride/img_pride04_m.jpg" alt=""></div>
+                        </section>
+                    </div>
+                    <section class="flex_box section9">
+                        <div class="img_box m_hide"><img src="../../assets/images/pride/img_pride06.jpg" alt=""></div>
+                        <div class="txt_box">
+                            <p class="ttl">세상 모든 자동차에 P-OLED 전파를! </p>
+                            <p class="txt">LG디스플레이는 LCD 대비 성능이 뛰어난 P-OLED를 활용한 차량용 디스플레이 제품 개발에 꾸준히 앞장서왔는데요. 세계 최초로 차량용 P-OLED 개발에 성공한 데 이어, 이제는 그 노력의 결실을 하나씩 거두는 단계로 돌입했습니다. 올해부터 본격적으로 차량용 P-OLED 양산을 시작한 것인데요. 글로벌 프리미엄 완성차 업체들을 고객사로 확보하는 한편, 이들과의 공동 개발을 진행하고 있습니다.
+                                이제 막 시장이 형성된 차량용 OLED 패널은 향후 성장 가능성이 매우 높은 제품군으로 지목됩니다. 글로벌 시장조사기관 옴디아에 따르면, 글로벌 차량용 OLED 패널 시장은 2020년 5,700만 달러 수준에서 오는 2025년 7억8,000만 달러로 10배 이상 급성장할 전망입니다.</p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- comment_box -->
+                <div class="comment_box">
+                    <div class="ttl_box">
+                        <p class="ttl">댓글쓰기</p>
+                        <p class="user">
+                            <span>이름 : 김엘지</span>
+                            <span>소속 : OLED 기술 Task</span>
+                            <span>직급 : 사원</span>
+                        </p>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력하세요."></textarea>
+                    <button type="button" class="save_btn">저장하기</button>
+                </div>
+                <!-- // comment_box -->
+            </div>
+        </div>
+        <!-- // content -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container clearfix">
+                <p class="copyright">COPYRIGHT @ 2022 LG DISPLAY CO., LTD. <br class="pc_hide">ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <!-- // footer -->
+    </div>
+    <!-- // wrap -->
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset=UTF-8">
+    <link rel="canonical" href="http://페이지 주소">
+    <meta name="description" content="웹페이지 설명 작성"/>
+    <meta name="keywords" content="키워드, 키워드..." />
+    <meta name="author" content="페이지 작성자" />
+    <meta name="copyright" content="저작권자" />
+    <meta name="robots" content="index,follow" />
+    <meta name="robots" content="All" /> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>엘지웹진</title>
+    <link rel="stylesheet" href="../../assets/css/default.css">
+    <link rel="stylesheet" href="../../assets/css/sub.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> 
+    <![endif]-->
+    <script src="../../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../../assets/js/common.js"></script>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- header -->
+        <header id="header">
+            <dl class="skip_navi">
+                <dt class="blind"><strong>바로가기 메뉴</strong></dt>
+                <dd><a href="#content">본문 바로가기</a></dd>
+                <dd><a href="#gnb">주메뉴 바로가기</a></dd>
+            </dl>
+
+            <div class="gnb_header">
+                <div class="container">
+                    <div class="head_top">
+                        <h1 class="logo"><a href="#"><img src="../../assets/images/common/head_logo.png" alt="세솟는병원"></a></h1>
+                        <div class="txt_box">
+                            <span>2022. 09.  <br class="pc_hide">VOL.284</span>
+                            <div class="select_box">
+                                <a href="#" class="select_btn">지난호 보기</a>
+                                <ul class="list">
+                                    <li><a href="#">지난호</a></li>
+                                    <li><a href="#">지난호</a></li>
+                                    <li><a href="#">지난호</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="m_gnb_open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="gnb_box">
+                    <div class="container">
+                        <ul id="gnb" class="gnb">
+                            <li>
+                                <a href="#">insight</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">pride</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">TOGETHER</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">TOGETHER</a></li>
+                                    <li><a href="#">TOGETHER</a></li>
+                                    <li><a href="#">TOGETHER</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">people</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">life</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">life</a></li>
+                                    <li><a href="#">life</a></li>
+                                    <li><a href="#">life</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- [D] m_gnb안에 들어가는 항목은 js에서 작업 -->
+                        <ul id="mgnb" class="m_gnb"></ul>
+                    </div>
+                </div>
+                <div class="m_gnb_bg"></div>
+                <div class="gnb_bg"></div>
+            </div>
+        </header>
+        <!-- // header -->
+
+        <!-- content -->
+        <div id="content">
+            <div class="people_wrap">
+                <!-- sub_top_txt -->
+                <div class="sub_top_txt">
+                    <div class="container pc_hide">
+                        <h2>
+                            <span class="ttl">PEOPLE</span>
+                            <span class="txt">중소형 선행연구담당<br>
+                                박용인 상무</span>
+                        </h2>
+                        <div class="bottom_box">
+                            <span class="date">2023-01-23</span>
+                            <div class="btn_box">
+                                <span>104 Likes</span>
+                                <!-- [D] 좋아요 클릭 시 active 클래스 추가 -->
+                                <a href="#" class="heart_btn"><span class="blind">좋아요</span></a>
+                                <a href="#" class="share_btn"><span class="blind">공유하기</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // sub_top_txt -->
+                
+                <div class="content_box">
+                    <section class="section1">
+                        <div class="left">
+                            <img src="../../assets/images/people/img_people01.jpg" alt="" class="m_hide">
+                            <img src="../../assets/images/people/img_people01_m.jpg" alt="" class="pc_hide">
+                            <div>
+                                <p><span>중소형 선행연구담당</span> 박용인 상무</p>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <!-- sub_top_txt -->
+                            <div class="sub_top_txt black m_hide">
+                                <h2>
+                                    <span class="ttl">PEOPLE</span>
+                                    <span class="txt">중소형 선행연구담당<br>
+                                        박용인 상무</span>
+                                </h2>
+                                <div class="bottom_box">
+                                    <span class="date">2023-01-23</span>
+                                    <div class="btn_box">
+                                        <span>104 Likes</span>
+                                        <!-- [D] 좋아요 클릭 시 active 클래스 추가 -->
+                                        <a href="#" class="heart_btn"><span class="blind">좋아요</span></a>
+                                        <a href="#" class="share_btn"><span class="blind">공유하기</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- // sub_top_txt -->
+                            <div class="txt_box">
+                                <p class="ttl">미래를 앞당기는 선행 기술은<br>
+                                    무한한 상상력에서 시작합니다</p>
+                                <p class="txt">테크노이매지네이션(Techno-imagination)은 기술혁신에서 중요한 역할을 하는 상상력을 의미한다. 기술에만 국한된 비전이 아니라 기술이 바꾸는 세상에 대한 상상까지 포함된 개념이다. 중소형 선행연구담당인 박용인 상무 역시 세상을 바꾸는 힘은 이런 상상력에서 나온다고 믿는다. 새로운 기술을 통해 인간과 사회를 어떻게 바꿀 것인지 상상하면서 기술혁신을 이뤄왔다. 그의 상상력에는 신기술은 물론 그것이 만들어낼 변화까지 담겨 있다. 꿈을 현실로 만드는 엔지니어는 이런 상상력을 소유한 사람들이다.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section2">
+                        <span class="sort">LGDISPLAY  _  MAGAZINE:D</span>
+                        <div class="txt_box">
+                            <p class="ttl">LGD 구성원에게 박용인 상무님께서 하시는 업무 소개를 부탁드립니다.</p>
+                            <p class="txt">CTO 소속으로 중소형 POLED와 중형 LCD 선행 기술 개발 업무를 수행하고 있습니다. POLED는 패널 회로 터치 등의 기술을 전반적으로 컨트롤하고, LCD는 패널 위주로 개발하고 있죠. 중소형 선행 기술을 통합 관리하며, 중소형 | 사업부와 Co-Work(협업)를 이루는 조직이라고 말씀드릴 수 있습니다. 중소형 제품군은 기술 사이클이 빠르고, 경쟁도 치열한 분야입니다. 따라서 신기술 조기 발굴과 빠른 기술 검증이 무엇보다 중요하죠. 이런 업무를 누구보다 앞서 해야 한다는 사명감으로 업무에 임하고 있습니다.</p>
+                            <p class="ttl">선행 제품 개발자로 최신 기술을 선도해오셨는데, 연구/개발에 매진할 수 있던 원동력이 무엇이었나요?</p>
+                            <p class="txt">개인적으로 새로운 것에 흥미를 느끼는 기질과 성향이 있습니다. 안양연구소의 지원 계기도 신기술에 대한 호기심 때문이었거든요. 그래서 사원일 때부터 프로젝트에 참여할 수 있었고, 그렇게 작은 성공들이 쌓여 큰 프로젝트까지 맡게 되었죠. 돌이켜보니 어떠한 계산 없이 오로지 기술에 대한 호기심을 좋았기 때문에 성장할 수 있었다고 생각합니다. 하이 리스크 하이 리턴(High Risk High Retum)은 연구/개발에도 그대로 적용되는데요, 신기술 개발이 성공하면 성과에 큰 도움이 되지만, 실패했을 때는 회사 생활에 마이너스가 되죠. 이런 위험 부담 때문에 사람들이 신기술에 쉽게 접근하지 않습니다. 그런데 다른 관점에서 바라보면 자신만의 차별점을 지니는 기회로 만들 수 있습니다. 하이 리스크에 갇혀 있으면 발을 내디딜 수 없지만, 신기술이라는 매력적인 하이 리턴을 생각하면 감내해볼 만한 가치가 있다고 생각합니다.</p>
+                        </div>
+                    </section>
+                    <section class="section3">
+                        <div class="img_box m_hide"><img src="../../assets/images/people/img_people02.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/people/img_people02_m.jpg" alt=""></div>
+                    </section>
+                    <section class="section4">
+                        <div class="txt_box">
+                            <p class="ttl">어떤 분야라도 첫 시작은 어려운데요, 신기술 개발에 앞장선 연구자/개발자로 조직 구성원들을 어떻게 설득하셨는지 궁금합니다.</p>
+                            <p class="txt">초기에 제가 CTO에서 모바일 사업부로 이동해 POLED를 시작하는데, 사람 구하기가 쉽지 않았어요. LCD가 잘되고 있을 때여서 POLED로 지원하는 사람이 많이 없었죠. 새로운 프로젝트를 시작하면 인프라도 부족하고 여러모로 어려운 점이 많아요. 이때 믿을 수 있는 건 마음이 맞는 팀원뿐이죠. 저는 미래에 대한 청사진과 계획을 공유하고 공감을 이끌어냈습니다. 당시에 LCD가 호황이었지만 고객들은 새로운 디스플레이에 대한 니즈가 컸고, POLED가 고객이 원하는 디스플레이가 될 것이라 생각했습니다. 그래서 새로운 기술로 준비하고 대처해야 한다는 공감대로 뜻을 모았습니다.</p>
+                        </div>
+                    </section>
+                    <section class="section5">
+                        <div class="txt_box">
+                            <p class="ttl">신기술 개발에 대한 중압감도 만만치 않을 것 같습니다. 개발 일정, 기술 이슈 등 다양한 한계 상황에 직면할 텐데 그 시간들을 어떻게 견디고 마인드 컨트롤을 하시나요?</p>
+                            <p class="txt">하다 보면 막힐 때가 있죠. 지원도 안 되고, 기술의 한계를 느낄 때는 정말 많은 압박감을 느끼기도 합니다. 그럴 때는 외부 요인을 지우고 한발 물러서서 생각하는 시간을 가지는 것이 좋습니다. 너무 몰입되어 있을 때는 전체를 바라볼 수 없기 때문에 거리를 유지하고 숲 전체를 바라보려는 노력이 필요합니다. 생각을 지우고 몰입에서 빠져나왔을 때 결정적 아이디어가 떠오르는 것을 여러 번 경험했습니다.<br>
+                                <br>
+                                기술적 관점에서 사건의 재구성'을 해보는 것도 방법입니다. 기존에 한 실험 데이터를 정리하면서 점검해보는 거죠. 불필요한 과정은 없었는지, 개선점은 없는지 차분하게 복기하면서 팁을 얻은 경우도 많습니다. 다르게 생각하는 실마리도 얻었고요. Task 리더로 프로젝트를 운영할 때도 새로운 방법으로 접근하기보다 기존의 실패 방식을 치밀하게 분석해서 개선하는 것이 더 실용적이고 효과적이었습니다.</p>
+                        </div>
+                    </section>
+                    <section class="section6">
+                        <div class="txt_box">
+                            <p class="ttl">2008년 당시 전자 종이(플렉시블 디스플레이) 개발 인터뷰에서 “10년 뒤에는 길을 걷다가 가방이나 주머니에 구겨 넣은 전자 종이를 꺼내 읽을 수 있고, 학생들은 학교에서 공책 대신 전자 종이 위에 수업 내용을 필기해 저장하는 모습이 일상 풍경이 될 것이다”라고 예상하셨는데, 지금 돌아보니 실현된 것이 많습니다.</p>
+                            <p class="txt">제가 세상에 관심이 많은 편입니다. (웃음) 신기술을 개발할 때는 필요하면 쓰겠지'라는 막연한 생각보다 구체적 활용을 생각하고, 대체 가능한 여러 신(Scene)을 염두에 두는 것이 효과적입니다. 전자 종이를 개발할 당시 종이 원료가 되는 펄프 생산으로 희생되는 천연림과 표백 과정 등 환경 이슈를 전자 종이로 대체해서 디지털화하겠다는 목표를 가지고 개발에 착수했죠. 종이와 비슷한 질감의 디스플레이면 좋겠다는 생각을 하고 EPD(Electrophoretic Display)를 장점화해서 눈에 피로하지 않으면서 방대한 데이터를 담을 수 있는 전자 종이를 콘셉트로 잡았습니다. 결과적으로는 스마트폰이 그 역할을 수행하게 되었지만, 문제점을 파악하고 새로운 디스플레이로 대체하려는 시도 자체는 의미가 있었다고 생각합니다.<br>
+                                <br>
+                                신기술 정착은 디바이스의 완성만으로는 어렵습니다. 완전하게 구현하기 위한 인프라를 함께 갖춰야 하죠. 3D 디바이스는 영화 <아바타>로 주목받았지만, 후속 콘텐츠가 개발되지 않아 시장에서 자취를 감췄습니다. 3D 콘텐츠가 많이 나왔더라면 3D TV도 활성화되지 않았을까요? 물론 당시에는 콘텐츠를 단시간에 다운받을 수 있는 환경을 조성하는 것도 부족했고요. 이처럼 신기술이 연착륙하기 위해서는 기본 인프라와 다양한 콘텐츠가 필수입니다. 세상에 대한 관심이 필요한 것도 그 때문이지요.</p>
+                        </div>
+                    </section>
+                    <section class="section7">
+                        <div class="img_box m_hide"><img src="../../assets/images/people/img_people03.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/people/img_people03_m.jpg" alt=""></div>
+                    </section>
+                    <section class="section8">
+                        <div class="txt_box">
+                            <p class="txt">영화 <마이너리티 리포트>(2002년 개봉)에서는 투명 디스플레이에서 고해상도 영상을 구현하며<br>
+                                손의 움직임만으로 자유롭게 화면을 전환하는 미래 디스플레이의 모습이 화제였다.</p>
+                            <p class="txt2">"영화를 보는 내내 저걸 어떻게 구현할 수 있을까 생각하면서 봤죠. <br>
+                                돌이켜보면 영화가 실현되는 경우가 많아요. <br>
+                                그렇기 때문에 당장은 아니더라도 상상하고 꿈꿔보는 일이 중요합니다.”</p>
+                        </div>
+                        <span class="sort">LGDISPLAY  _  MAGAZINE:D</span>
+                    </section>
+                    <section class="section9">
+                        <div class="txt_box">
+                            <p class="ttl">2022년 현재 시점에서 10년 뒤의 디스플레이는 어떻게 달라질까요?</p>
+                            <p class="txt">저는 Auto와 VR·AR 분야에서 확연한 변화를 몰고 을 것으로 예상합니다. 자동차에서 자율주행이 적용되면 운전 시간을 대체할 디바이스가 필요하죠. 이동 시간을 효율적으로 활용하고 즐기는 역할을 디스플레이가 담당하면서 차량은 다양한 엔터테인먼트가 펼쳐지는 공간으로 탈바꿈할 것으로 생각합니다.<br>
+                                <br>
+                                VR·AR로 접하는 가상세계 역시 우리가 접하지 않은 신세계인데요, 그 연결 통로에 디스플레이가 자리하고 있습니다. 개인적으로 편의성과 용이성에서 무한한 발전을 이뤄나갈 분야라고 생각합니다. VR 기기를 통해 루브르 박물관의 명화를 둘러보며 미술 수업을 하고, 아마존 원시림으로 모험을 떠날 수도 있겠죠. 실제와 같은 생생한 느낌을 줄 수 있다면 그 자체로 경쟁력이 충분하다고 봅니다. 실제 경험을 가상공간에서 압축적으로 할 수 있다면 비용과 시간 면에서도 경제적이고요. 저는 현실을 구현하는 디스플레이가 머지않은 미래에 다가올 것이라고 예상합니다.</p>
+                        </div>
+                    </section>
+                    <section class="section9">
+                        <div class="txt_box">
+                            <p class="ttl">'어떻게 하면 일을 잘할 수 있을까?' 이는 많은 구성원의 고민인데요, 상무님께서 생각하는 일잘러의 조건은 무엇인가요?</p>
+                            <p class="txt">자기 분야에 대한 전문성뿐만 아니라 다른 분야를 접할 기회가 주어졌을 때 활동 범위를 점차 넓혀가는 사람이라고 생각합니다. 저 역시 입사 후 CTO 조직에서 LTPS 개발에 몰두했고, 그게 전부라 생각하고 살았습니다. 그러다 공정 개발을 하면서 다양한 신기술을 귀동냥하고 살펴볼 기회가 있었고, 전자 종이 개발을 하면서 Flexible 디스플레이를 시작했습니다. 그리고 10년간의 사업부 생활을 하면서 기술 개발뿐 아니라 POLED 제품 개발을 하는 소중한 경험을 했습니다. 업무 초기에는 전문성 레벨을 높이기보다 다양한 분야를 자주 접해서 다방면의 역량을 갖추려는 노력이 필요합니다. 다방면에 뛰어난 멀티플레이어는 조직에서 환영받는 인재이며 시대의 요구이기도 합니다.</p>
+                        </div>
+                    </section>
+                    <section class="section10">
+                        <div class="img_box m_hide"><img src="../../assets/images/people/img_people04.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/people/img_people04_m.jpg" alt=""></div>
+                    </section>
+                    <section class="section11">
+                        <div class="txt_box">
+                            <p class="txt">박용인 상무는 “혼자 꾸면 꿈이지만, 함께 꾸면 현실이 된다”는 말을 믿는다. 함께 뜻을 모은 팀원들이 있었기에 꿈처럼 아득하게 느껴지던 일들을 실제로 만들어 낼 수 있었다. 어려운 상황에서 발현되는 팀워크는 불가능을 가능으로 만드는 힘을 가지고 있다.</p>
+                        </div>
+                    </section>
+                    <section class="section12">
+                        <div class="txt_box">
+                            <p class="ttl">4차 산업 시대를 열 인간형으로 광범위한 경험과 지식을 갖춘 '엑스퍼트 제너럴리스트(Expert-generalist)'가 꼽힙니다. 전문성은 기본으로 플러스알파가 요구되는 상황인데요, 구성원에게 어떤 플러스알파를 권할 수 있을까요?</p>
+                            <p class="txt">개발자 입장에서 권하는 플러스알파는 무한한 상상력입니다. 사람들은 언제나 신선한 아이디어를 찾지만, 하늘 아래 새로운 것은 존재하지 않습니다. 융합은 4차 산업 시대에 가장 중요한 키워드로 꼽히는데, 서로 다른 이종(異種)의 것을 연결하며 새로운 것을 창조해내는 것이 핵심입니다. 그래서 사회/경제/문화 등 다방면에 관심을 가지고 기술적 상상력을 발휘해 새로운 연결점을 찾을 수 있을 때 확실한 플러스알파가 됩니다.<br>
+                                과거 안양연구소 시절에 한 선배가 “뚱뚱한 브라운관 모니터를 LCD로 바꾸고 TV로도 만들어보고 싶다”고 제안했다가 핀잔을 들은 일례가 있습니다. 당시에는 액정 화면이 크지도 않았고, 액정이 빨리 움직이지도 않았거든요. 기술의 한계로 허무맹랑한 제안이 된 거죠. 그런데 그 제안이 현실이 됐다는 걸 우리는 알고 있지 않습니까? 구현 가능한 기술 내에서 상상하니까 한계가 존재하는 거죠. 공상 과학이라도 상상을 자꾸 해봐야 현실로 이루어집니다. 어렵다. 안 된다는 생각부터 하니까 시도하기조차 어려워지는 것이죠. 기술은 시간이 지날수록 진화하고 안정화되니까 한계를 지우고 마음껏 꿈꾸고 상상하기를 바랍니다</p>
+                        </div>
+                    </section>
+                    <section class="section13">
+                        <div class="txt_box">
+                            <p class="ttl">마지막으로 중소형 선행연구담당 구성원들에게 한 말씀 부탁드립니다.</p>
+                            <p class="txt">저는 우리 구성원들이 업무에 임할 때 기술에 자신감을 가지고 접근했으면 합니다. 저는 그런 자신감 속에서 창의적 아이디어가 발현된다고 믿습니다. 근성과 자신감은 경쟁력 있는 기술의 토대가 됩니다. 저 역시 중소형 선행연구담당의 위치에서 구성원들이 성장할 수 있는 다양한 기회를 제공하도록 노력하겠습니다. 미래를 앞당기는 선행 기술은 여러분의 손에 달려 있습니다. 시행해보고 싶은 아이디어와 다양한 선행 기술에 대한 활발한 논의가 오가는 조직을 만드는 데 최선을 다하겠습니다.</p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- comment_box -->
+                <div class="comment_box">
+                    <div class="ttl_box">
+                        <p class="ttl">댓글쓰기</p>
+                        <p class="user">
+                            <span>이름 : 김엘지</span>
+                            <span>소속 : OLED 기술 Task</span>
+                            <span>직급 : 사원</span>
+                        </p>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력하세요."></textarea>
+                    <button type="button" class="save_btn">저장하기</button>
+                </div>
+                <!-- // comment_box -->
+            </div>
+        </div>
+        <!-- // content -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container clearfix">
+                <p class="copyright">COPYRIGHT @ 2022 LG DISPLAY CO., LTD. <br class="pc_hide">ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <!-- // footer -->
+    </div>
+    <!-- // wrap -->
+</body>
+</html>

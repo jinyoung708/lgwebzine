@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'LGSmHaT';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/LGSmHaTL.eot');
+	src: url('../fonts/LGSmHaTL.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/LGSmHaTL.woff2') format('woff2'),
+		url('../fonts/LGSmHaTL.woff') format('woff'),
+		url('../fonts/LGSmHaTL.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'LGSmHaT';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/LGSmHaTR.eot');
+	src: url('../fonts/LGSmHaTR.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/LGSmHaTR.woff2') format('woff2'),
+		url('../fonts/LGSmHaTR.woff') format('woff'),
+		url('../fonts/LGSmHaTR.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'LGSmHaT';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/LGSmHaTSB.eot');
+	src: url('../fonts/LGSmHaTSB.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/LGSmHaTSB.woff2') format('woff2'),
+		url('../fonts/LGSmHaTSB.woff') format('woff'),
+		url('../fonts/LGSmHaTSB.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'LGSmHaT';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/LGSmHaTB.eot');
+	src: url('../fonts/LGSmHaTB.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/LGSmHaTB.woff2') format('woff2'),
+		url('../fonts/LGSmHaTB.woff') format('woff'),
+		url('../fonts/LGSmHaTB.ttf') format('truetype');
+}

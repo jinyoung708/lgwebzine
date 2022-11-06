@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset=UTF-8">
+    <link rel="canonical" href="http://페이지 주소">
+    <meta name="description" content="웹페이지 설명 작성"/>
+    <meta name="keywords" content="키워드, 키워드..." />
+    <meta name="author" content="페이지 작성자" />
+    <meta name="copyright" content="저작권자" />
+    <meta name="robots" content="index,follow" />
+    <meta name="robots" content="All" /> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>엘지웹진</title>
+    <link rel="stylesheet" href="../../assets/css/default.css">
+    <link rel="stylesheet" href="../../assets/css/sub.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script> 
+    <![endif]-->
+    <script src="../../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../../assets/js/common.js"></script>
+</head>
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- header -->
+        <header id="header">
+            <dl class="skip_navi">
+                <dt class="blind"><strong>바로가기 메뉴</strong></dt>
+                <dd><a href="#content">본문 바로가기</a></dd>
+                <dd><a href="#gnb">주메뉴 바로가기</a></dd>
+            </dl>
+
+            <div class="gnb_header">
+                <div class="container">
+                    <div class="head_top">
+                        <h1 class="logo"><a href="#"><img src="../../assets/images/common/head_logo.png" alt="세솟는병원"></a></h1>
+                        <div class="txt_box">
+                            <span>2022. 09.  <br class="pc_hide">VOL.284</span>
+                            <div class="select_box">
+                                <a href="#" class="select_btn">지난호 보기</a>
+                                <ul class="list">
+                                    <li><a href="#">지난호</a></li>
+                                    <li><a href="#">지난호</a></li>
+                                    <li><a href="#">지난호</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="m_gnb_open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="gnb_box">
+                    <div class="container">
+                        <ul id="gnb" class="gnb">
+                            <li>
+                                <a href="#">insight</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                    <li><a href="#">insight</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">pride</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                    <li><a href="#">pride</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">TOGETHER</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">TOGETHER</a></li>
+                                    <li><a href="#">TOGETHER</a></li>
+                                    <li><a href="#">TOGETHER</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">people</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                    <li><a href="#">people</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">life</a>
+                                <ul class="sub_gnb">
+                                    <li><a href="#">life</a></li>
+                                    <li><a href="#">life</a></li>
+                                    <li><a href="#">life</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- [D] m_gnb안에 들어가는 항목은 js에서 작업 -->
+                        <ul id="mgnb" class="m_gnb"></ul>
+                    </div>
+                </div>
+                <div class="m_gnb_bg"></div>
+                <div class="gnb_bg"></div>
+            </div>
+        </header>
+        <!-- // header -->
+
+        <!-- content -->
+        <div id="content">
+            <div class="together_wrap">
+                <!-- sub_top_txt -->
+                <div class="sub_top_txt black">
+                    <div class="container">
+                        <h2>
+                            <span class="ttl">TOGETHER</span>
+                            <span class="txt">“투명 OLED 세상은 <br>
+                                구성원들의 상상에서 시작됩니다”</span>
+                        </h2>
+                        <div class="bottom_box">
+                            <span class="date">2023-01-23</span>
+                            <div class="btn_box">
+                                <span>104 Likes</span>
+                                <!-- [D] 좋아요 클릭 시 active 클래스 추가 -->
+                                <a href="#" class="heart_btn"><span class="blind">좋아요</span></a>
+                                <a href="#" class="share_btn"><span class="blind">공유하기</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // sub_top_txt -->
+
+                <div class="content_box">
+                    <section class="gray_box">
+                        <span class="sort">LGDISPLAY  _  MAGAZINE:D</span>
+                        <p>T-Task의 영업 전략을 듣다 보면 “할 수 있는 모든 것을 다 한다”는 말이 절로 떠오른다.<br class="m_hide">
+                            이들은 투명 OLED의 시장을 개척하기 위해 옥외광고법을 스터디하고,<br class="m_hide">
+                            행안부에 민원까지 넣으며 영업의 장애물을 제거한다.<br>
+                            지금까지 없던 새로운 영업 방식이다.<br>
+                            미지의 영역에서 새로운 길을 내는 사람, 영업의 개척자로 불리는 조민우 담당을 만났다.</p>
+                    </section>
+                    <section class="section1">
+                        <div class="img_box m_hide"><img src="../../assets/images/together/img_together01.jpg" alt=""></div>
+                        <div class="img_box pc_hide">
+                            <img src="../../assets/images/together/img_together01_m.jpg" alt="">
+                            <p>K-Display 2022에서 환영사를 하는 LG디스플레이 정호영 사장</p>
+                        </div>
+                    </section>
+                    <section class="section2">
+                        <div class="txt_box">
+                            <p class="ttl">LGD 구성원에게 T-Task를 소개해주세요.</p>
+                            <p class="txt">주요 전략 사업인 대형 OLED 중에서 OLED의 특별한 성능과 특징을 기반으로 새로운 시장을 창출하기 위해 3개의 Task가 발족했는데요, 그 가운데 하나가 T-Task입니다. 투명하면서 디스플레이가 가능한 투명 OLED의 특징을 이용해 공공장소나 상업 공간에 사용하는 사이니지(Signage), 건물의 입구와 외벽·유리창 등의 건축물, 지하철 같은 운송 수단 등 기존에 없는 새로운 제품과 시장을 창출하는 업무를 하고 있습니다. </p>
+                        </div>
+                    </section>
+                    <section class="section3">
+                        <div class="img_box m_hide"><img src="../../assets/images/together/img_together02.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/together/img_together02_m.jpg" alt=""></div>
+                    </section>
+                    <section class="section4">
+                        <div class="txt_box">
+                            <p class="ttl">OLED 대세화 속에서 투명 디스플레이의 시장 진입에도 기대가 큰 상황입니다.</p>
+                            <p class="txt">세계적 전략 컨설팅 회사인 보스턴컨설팅그룹(BCG)을 통해 향후 10년간의 투명 OLED 시장 전망을 추정·분석한 자료가 있는데요, 해당 데이터에서는 투명 OLED가 10년 동안 10조 정도의 규모로 성장할 것으로 예측했습니다. 처음으로 테스트 마켓을 진행하고 있으며, 향후 더 큰 성장을 기대합니다. </p>
+                        </div>
+                    </section>
+                    <section class="section5">
+                        <div class="txt_box">
+                            <p class="ttl">기존 OLED 디스플레이와 다른 투명 OLED만의 강점은 무엇인가요?</p>
+                            <p class="txt">가장 큰 장점은 투명이 주는 개방감이죠. 이전까지 정보를 제공하는 디스플레이는 모두 불투명이었습니다. 요즘은 사무실에 개방감을 주기 위해 유리 파티션을 설치하는 추세인데요, 여기에 모니터와 TV를 배치하면 개방감이 사라지면서 제2의 벽이 생기는 문제가 나타나죠. 이러한 문제를 동시에 해결하는 단 하나의 디바이스가 바로 투명 OLED입니다. 투명 OLED 하나면 개방감과 정보 제공 이라는 두 마리 토끼를 잡을 수 있죠. </p>
+                        </div>
+                    </section>
+                    <section class="section6">
+                        <div class="img_box m_hide"><img src="../../assets/images/together/img_together03.jpg" alt=""></div>
+                        <div class="img_box pc_hide">
+                            <img src="../../assets/images/together/img_together03_m.jpg" alt="">
+                            <p>K-Display 2022에서 환영사를 하는 LG디스플레이 정호영 사장</p>
+                        </div>
+                    </section>
+                    <div class="m_hide">
+                        <section class="flex_box section7">
+                            <div class="txt_box">
+                                <p class="ttl">투명 OLED를 앞으로 어디까지 적용할 수 있을까요?</p>
+                                <p class="txt">투명 OLED는 유리를 사용하는 모든 곳에 설치할 수 있기 때문에 유리 산업과 근본이 같습니다. <br>
+                                    ‘유리=투명 OLED’라는 공식이 성립하므로 같은 시장을 공유할 수 있죠. 저는 사람들이 투명 디스플레이 를 유리로 인식하는 시절이 금방 오리라고 봅니다. 유리를 취급하는 사람들이 자유롭게 다룰 수 있는 특징과 신뢰성을 갖추게 되면 건축 부자재 시장에서도 투명 디스플레이를 판매할 수 있을 테고요. </p>
+                            </div>
+                            <div class="img_box"><img src="../../assets/images/together/img_together04.jpg" alt=""></div>
+                        </section>
+                        <section class="section8">
+                            <div class="img_box"><img src="../../assets/images/together/img_together05.jpg" alt=""></div>
+                        </section>
+                        <section class="section9">
+                            <div class="txt_box">
+                                <p class="ttl">Task의 리더로 조직을 이끌고 있는데요, 단단한 팀워크를 위해 <br>
+                                    어떤 노력을 기울이는지 궁금합니다. </p>
+                                <p class="txt">지금은 사무실 밖에서 소통의 장이 사라진 터라 팀워크를 다지기 어려운 상황이죠. 평상시에는 업무 격려에 지속적으로 노력하고 있고요, 최근에는 회식비로 와인을 구입해 팀의 공식 선물로 사용하고 있습니다. 개인 기념일 외에도 힘든 업무를 완수했거나 성과를 냈을 때 개인적인 면담을 하면서 와인 한 병을 선물하니 모두 좋아하더군요. 투명 OLED의 시장 도입에 대한 아이디어 공모전에도 와인을 상품으로 걸었죠. 등수에 따라서 와인 등급을 달리했는데, 이를 공개하고 시작하니 반응이 괜찮더라고요. 다른 물품보다 선호도도 좋고, 가정에서 배우자와 함께 즐길 수 있어서 좋은 아이템이라고 생각합니다. </p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="pc_hide">
+                        <section class="section7 float_box">
+                            <div class="txt_box">
+                                <img src="../../assets/images/together/img_together04_m.jpg" alt="">
+                                <p class="ttl">투명 OLED를 앞으로 어디까지 
+                                    적용할 수 있을까요?</p>
+                                <p class="txt">투명 OLED는 유리를 사용하는 모든 곳에 설치할 수 있기 때문에 유리 산업과 근본이 같습니다. 
+                                    ‘유리=투명 OLED’라는 공식이 성립하므로 같은 시장을 공유할 수 있죠. 저는 사람들이 투명 디스플레이 를 유리로 인식하는 시절이 금방 오리라고 봅니다. 유리를 취급하는 사람들이 자유롭게 다룰 수 있는 특징과 신뢰성을 갖추게 되면 건축 부자재 시장에서도 투명 디스플레이를 판매할 수 있을 테고요. </p>
+                                <p class="ttl">Task의 리더로 조직을 이끌고 있는
+                                    데요, 단단한 팀워크를 위해 어떤 
+                                    노력을 기울이는지 궁금합니다. </p>
+                                <p class="txt">지금은 사무실 밖에서 소통의 장이 사라진 터라 팀워크를 다지기 어려운 상황이죠. 평상시에는 업무 격려에 지속적으로 노력하고 있고요, 최근에는 회식비로 와인을 구입해 팀의 공식 선물로 사용하고 있습니다. 개인 기념일 외에도 힘든 업무를 완수했거나 성과를 냈을 때 개인적인 면담을 하면서 와인 한 병을 선물하니 모두 좋아하더군요. 
+                                    투명 OLED의 시장 도입에 대한 아이디어 공모전에도 와인을 상품으로 걸었죠. 등수에 따라서 와인 등급을 달리했는데, 이를 공개하고 시작하니 반응이 괜찮더라고요. 다른 물품보다 선호도도 좋고, 가정에서 배우자와 함께 즐길 수 있어서 좋은 아이템이라고 생각합니다. 
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                    <section class="flex_box section10">
+                        <div class="img_box m_hide"><img src="../../assets/images/together/img_together06.jpg" alt=""></div>
+                        <div class="img_box pc_hide"><img src="../../assets/images/together/img_together05_m.jpg" alt=""></div>
+                        <div class="txt_box">
+                            <p class="ttl">마지막으로 Transparent Task 구성원에게 <br class="m_hide">
+                                한 말씀 부탁드립니다. </p>
+                            <p class="txt">Task가 결성되고 팀원들에게 첫인사를 한 기억이 납니다. “저는 커머셜 영업을 계속해온 사람이고, 전자칠판을 통해 세상에 없던 시장을 개척하는 일도 해보았습니다. 그런 경험을 가지고 투명을 보니 길이 조금 보입니다. 그 길을 저와 같이 넓히고 단단히 하는 작업을 하면 성공할 것 같습니다”라고 인사했죠. 그렇게 말하고 두 달이 지났는데, 이제는 ‘새로운 시장’도 보입니다. 그 시장으로 향하는 길이 작고 좁기는 하지만, 제 곁에 여러분이 있어서 힘이 납니다. 여러분과 함께 그 성공의 길로 나아갔으면 합니다. </p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- comment_box -->
+                <div class="comment_box">
+                    <div class="ttl_box">
+                        <p class="ttl">댓글쓰기</p>
+                        <p class="user">
+                            <span>이름 : 김엘지</span>
+                            <span>소속 : OLED 기술 Task</span>
+                            <span>직급 : 사원</span>
+                        </p>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력하세요."></textarea>
+                    <button type="button" class="save_btn">저장하기</button>
+                </div>
+                <!-- // comment_box -->
+            </div>
+        </div>
+        <!-- // content -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container clearfix">
+                <p class="copyright">COPYRIGHT @ 2022 LG DISPLAY CO., LTD. <br class="pc_hide">ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <!-- // footer -->
+    </div>
+    <!-- // wrap -->
+</body>
+</html>
