@@ -1,6 +1,23 @@
 @charset "UTF-8";
 @import url("https://hangeul.pstatic.net/hangeul_static/css/nanum-myeongjo.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@font-face {
+    font-family: 'PyeongChangPeace';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Bold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/PyeongChang/PyeongChangPeace-Bold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 /* sub common */
@@ -150,6 +167,68 @@
 .notice_wrap .btn_box .more_btn {width: 202px; height: 59px; border: 1px solid #363636; font-size: 20px; color: #000;}
 
 
+.hero_wrap  {padding-top: 102px;}
+.hero_wrap .section1 {position: relative; margin-bottom: 145px;}
+.hero_wrap .section1 .img_box {text-align: right;}
+.hero_wrap .section1 .txt_box {position: absolute; left: 0; bottom: 0; width: 458px; min-height: 589px; padding-top: 67px; padding-left: 48px; padding-bottom: 50px; background-color: #e9726a;}
+.hero_wrap .section1 .txt_box .t1 {font-size: 25px; font-weight: 500; color: #bc4143; letter-spacing: -0.05em;}
+.hero_wrap .section1 .txt_box .t1 span {display: inline-block; line-height: 45px; padding: 0 22px; background-color: #ffea00;}
+.hero_wrap .section1 .txt_box .t1 span:first-child {padding-right: 53px;}
+.hero_wrap .section1 .txt_box .t1 span:not(:last-child) {margin-bottom: 4px;}
+.hero_wrap .section1 .txt_box .t2 {margin-bottom: 40px; color: #fff; font-size: 70px; font-family: 'PyeongChangPeace'; font-weight: 700; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35); letter-spacing: -0.03em;}
+.hero_wrap .section1 .txt_box .t3 {line-height: 1.5; font-size: 20px; color: #fff; letter-spacing: -0.04em;}
+.hero_wrap section:not(.section1) {margin-bottom: 100px;}
+.hero_wrap section:not(.section1) .inner {max-width: 815px; margin: 0 auto;}
+.hero_wrap section:not(.section1) .inner ~ img {margin-top: 45px;}
+.hero_wrap section:not(.section1) .ttl {margin-bottom: 45px; line-height: 1.3; font-size: 40px; font-weight: 500; letter-spacing: -0.04em;}
+.hero_wrap section:not(.section1) .ttl span {position: relative; display: inline-block;}
+.hero_wrap section:not(.section1) .ttl span::before {display: inline-block; content:''; position: absolute; z-index: -1; left: 0; bottom: 0; width: 100%; height: 20px; background-color: #ffd571;}
+.hero_wrap section:not(.section1) .txt {line-height: 1.3; font-size: 22px; font-weight: 300; letter-spacing: -0.04em; word-break: keep-all;}
+.hero_wrap section:not(.section1) .txt + .ttl {margin-top: 30px;}
+.hero_wrap section:not(.section1) .flex_box {display: flex; align-items: center;}
+.hero_wrap section:not(.section1) .flex_box .img_box {width: 50%;}
+.hero_wrap section:not(.section1) .flex_box .txt_box {width: 50%; padding-left: 44px;}
+.hero_wrap .section8 {max-width: 782px; margin: 0 auto; }
+.hero_wrap .section8 a {display: flex; height: 237px; background: #d1655e url('../images/hero/img_hero07.jpg') no-repeat 0 bottom /contain; padding-left: 295px; flex-wrap: wrap; align-items: center;}
+.hero_wrap .section8 .t1 {margin-bottom: 15px; font-size: 35px; font-weight: 700; color: #fff; letter-spacing: -0.04em;}
+.hero_wrap .section8 .t2 {line-height: 1.2; font-size: 25px; color: #fff; letter-spacing: -0.04em;}
+
+
+.quiz_wrap {padding-top: 100px;}
+.quiz_wrap .section1 {position: relative; padding-top: 58px; background: #963beb url('../images/quiz/img_quiz01.jpg') no-repeat center top;}
+.quiz_wrap .section1::after {display: inline-block; content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 100px; box-shadow: inset 0px -40px 40px -40px rgb(0 0 0 / 30%);}
+.quiz_wrap .section1 .t1 {margin-bottom: 343px; font-size: 24px; font-weight: 500; color: #fff; text-align: center;}
+.quiz_wrap .section1 .inner {max-width: 891px; margin: 0 auto; padding: 45px 50px; border-radius: 29px 29px 0 0; background-color: #fff;}
+.quiz_wrap .section1 .inner .ttl {margin-bottom: 25px; text-align: center; font-size: 30px; font-weight: 700; color: #963beb;}
+.quiz_wrap .section1 .inner .txt {line-height: 1.4; font-size: 22px; font-weight: 300; word-break: keep-all;}
+.quiz_wrap .section2 {padding-top: 80px; padding-bottom: 98px; background-color: #e0e7e7;}
+.quiz_wrap .section2 .quiz_list {max-width: 1008px; margin: 0 auto;}
+.quiz_wrap .section2 .quiz_list > li {position: relative; padding: 100px 0; margin-bottom: 40px; background-color: #fff; box-shadow: 3px 2px 2px 0px rgba(115, 115, 115, 0.43);}
+.quiz_wrap .section2 .quiz_list > li::before {display: inline-block; content:''; position: absolute; left: 35px; top: 20px; right: 35px; height: 22px; background: url('../images/quiz/img_pattern.jpg') repeat-x;}
+.quiz_wrap .section2 .quiz_list > li .num {position: absolute; left: -32px; top: 89px; width: 179px; height: 59px; padding-left: 83px; line-height: 66px; font-family: 'GmarketSansBold'; font-size: 30px; font-weight: 700; color: #7600e5; background-color: #e0e7e7;}
+.quiz_wrap .section2 .quiz_list > li .num::before {position: absolute; left: 0; top: 0; display: inline-block; content:''; width: 59px; height: 100%; background-color: #ffec29;}
+.quiz_wrap .section2 .quiz_list > li .t1 {padding-left: 180px; padding-right: 95px; margin-bottom: 5px; line-height: 1.4; font-size: 22px; font-weight: 300; word-break: keep-all;}
+.quiz_wrap .section2 .quiz_list > li .t2 {padding-left: 180px; padding-right: 95px; font-size: 22px; font-weight: 500; color: #963beb;}
+.quiz_wrap .section2 .hint {margin-top: 40px; text-align: center; font-size: 0;}
+.quiz_wrap .section2 .hint span {display: inline-block; width: 78px; height: 77px; line-height: 77px; border-radius: 16px; background-color: #963beb; color: #fff; font-size: 35px; font-weight: 700;}
+.quiz_wrap .section2 .hint span:not(:last-child) {margin-right: 7px;}
+.quiz_wrap .section2 .txt_box {max-width: 730px; margin: 0 auto;}
+.quiz_wrap .section2 .txt_box p {display: flex; margin-bottom: 7px; align-items: center;}
+.quiz_wrap .section2 .txt_box p:last-child {margin-bottom: 0;}
+.quiz_wrap .section2 .txt_box p span {font-size: 26px; color: #555;}
+.quiz_wrap .section2 .txt_box p .ttl {display: inline-block; width: 143px; height: 47px; line-height: 47px; background-color: #737373; font-size: 22px; border-radius: 23px; font-weight: 500; color: #fff; text-align: center;}
+.quiz_wrap .section2 .txt_box p .txt {width: calc(100% - 143px); padding-left: 16px; letter-spacing: -0.03em;}
+.quiz_wrap .section2 .txt_box p.small {align-items: flex-start;}
+.quiz_wrap .section2 .txt_box p.small .txt {padding-top: 10px; font-size: 22px;}
+.quiz_wrap .section2 .btn {display: block; width: 284px; height: 72px; line-height: 72px; margin: 45px auto 0; text-align: center; background-color: #963beb; font-size: 30px; font-weight: 700; color: #fff;}
+.quiz_wrap .section3 {padding: 50px 0 31px; background: url('../images/quiz/img_quiz02.jpg') no-repeat center/cover;}
+.quiz_wrap .section3 .ttl {margin-bottom: 35px; font-size: 35px; font-weight: 700; color: #821be3; text-align: center; letter-spacing: -0.03em;}
+.quiz_wrap .section3 .ttl span {color: #171d6e;}
+.quiz_wrap .section3 .box {display: flex; justify-content: space-between; max-width: 822px; margin: 0 auto; padding: 30px 55px; border: 1px solid #dfdfdf; background-color: #fff; border-radius: 19px;}
+.quiz_wrap .section3 .box > div {width: calc(45% - 20px); line-height: 1.4; font-size: 22px; letter-spacing: -0.03em;}
+.quiz_wrap .section3 .box > div:first-child {width: calc(55% - 20px);}
+
+
 
 
 @media screen and (max-width:991px) {
@@ -281,6 +360,62 @@
     .notice_wrap .notice_list > li .txt_box .ttl br {display: none;}
     .notice_wrap .btn_box {margin-top: 51px;}
     
+
+    .hero_wrap {padding-top: 38px;}
+    .hero_wrap .container {padding: 0;}
+    .hero_wrap .section1 {margin-bottom: 45px;}
+    .hero_wrap .section1 .img_box {height: 476px; background: url('../images/hero/img_hero01.jpg') no-repeat right top /contain;}
+    .hero_wrap .section1 .img_box img {display: none;}
+    .hero_wrap .section1 .txt_box {bottom: 41px; padding-left: 39px; padding-top: 35px; padding-bottom: 20px; min-height: 393px;}
+    .hero_wrap .section1 .txt_box .t1 {margin-bottom: 10px; font-size: 22px;}
+    .hero_wrap .section1 .txt_box .t1 span {line-height: 34px;}
+    .hero_wrap .section1 .txt_box .t2 {margin-bottom: 20px; font-size: 55px;}
+    .hero_wrap .section1 .txt_box .t3 {font-size: 18px;}
+    .hero_wrap section:not(.section1) {padding: 0 39px; margin-bottom: 40px;}
+    .hero_wrap section:not(.section1) .inner {max-width: 100%;}
+    .hero_wrap section:not(.section1) .inner ~ img {margin-top: 25px;}
+    .hero_wrap section:not(.section1) .ttl {margin-bottom: 25px; font-size: 26px;}
+    .hero_wrap section:not(.section1) .ttl span::before {height: 13px;}
+    .hero_wrap section:not(.section1) .txt {font-size: 18px;}
+    .hero_wrap section:not(.section1) img {width: 100%;}
+    .hero_wrap section:not(.section1) .flex_box {flex-wrap: wrap; flex-direction: column-reverse;}
+    .hero_wrap section:not(.section1) .flex_box .img_box {width: 100%; margin-top: 25px;}
+    .hero_wrap section:not(.section1) .flex_box .txt_box {width: 100%; padding-left: 0;}
+    .hero_wrap section.section6 .flex_box {flex-direction: column;}
+    .hero_wrap section.section6 .flex_box .img_box {margin-top: 0; margin-bottom: 40px;}
+    .hero_wrap .section8 {max-width: 100%;}
+    .hero_wrap .section8 a {height: 170px; padding-left: 38.25%;}
+    .hero_wrap .section8 .t1 {font-size: 25px;}
+    .hero_wrap .section8 .t2 {font-size: 18px;}
+    
+
+    .quiz_wrap {padding-top: 39px;}
+    .quiz_wrap .section1 {padding: 35px 39px 0; background-image: url('../images/quiz/img_quiz01_m.jpg');}
+    .quiz_wrap .section1::after {display: none;}
+    .quiz_wrap .section1 .t1 {margin-bottom: 257px;}
+    .quiz_wrap .section1 .inner {padding: 40px 45px 30px;}
+    .quiz_wrap .section1 .inner .ttl {margin-bottom: 15px; font-size: 26px;}
+    .quiz_wrap .section1 .inner .txt {font-size: 18px;}
+    .quiz_wrap .section2 {padding: 43px 39px 70px;}
+    .quiz_wrap .section2 .quiz_list > li {padding: 55px 0 30px 0;}
+    .quiz_wrap .section2 .quiz_list > li::before {left: 20px; right: 20px; top: 11px; height: 13px; background-size: 48px 13px;}
+    .quiz_wrap .section2 .quiz_list > li .num {left: -21px; top: 49px; width: 114px; height: 38px; line-height: 40px; padding-left: 53px; font-size: 19px;}
+    .quiz_wrap .section2 .quiz_list > li .num::before {width: 38px;}
+    .quiz_wrap .section2 .quiz_list > li .t1 {padding-left: 104px; padding-right: 30px; font-size: 18px;}
+    .quiz_wrap .section2 .quiz_list > li .t2 {padding-left: 104px; padding-right: 30px; font-size: 20px;}
+    .quiz_wrap .section2 .hint {margin-top: 14px;}
+    .quiz_wrap .section2 .hint span {width: 65px; height: 65px; line-height: 65px; font-size: 28px;}
+    .quiz_wrap .section2 .txt_box {padding: 0 20px; max-width: 100%;}
+    .quiz_wrap .section2 .txt_box p .ttl {font-size: 22px;}
+    .quiz_wrap .section2 .txt_box p .txt {font-size: 22px;}
+    .quiz_wrap .section2 .txt_box p.small .txt {line-height: 1.4; font-size: 18px;}
+    .quiz_wrap .section2 .btn {margin-top: 30px;}
+    .quiz_wrap .section3 {padding: 30px 73px 44px; background-image: url('../images/quiz/img_quiz02_m.jpg');}
+    .quiz_wrap .section3 .ttl {margin-bottom: 20px; font-size: 30px;}
+    .quiz_wrap .section3 .ttl span {display: block;}
+    .quiz_wrap .section3 .box {flex-wrap: wrap;}
+    .quiz_wrap .section3 .box > div {width: 100%;}
+    .quiz_wrap .section3 .box > div:first-child {width: 100%;}
 }
 
 @media screen and (max-width:640px) {
@@ -364,4 +499,43 @@
     .notice_wrap .notice_list > li .txt_box .ttl {font-size: 16px;}
     .notice_wrap .notice_list > li .txt_box .info {left: 20px; right: 20px; bottom: 20px;}
     .notice_wrap .notice_list > li .txt_box .info .tag span {font-size: 13px;}
+
+
+    .hero_wrap .section1 .img_box {height: 350px; background-size: cover; background-position-x: 20px;}
+    .hero_wrap .section1 .txt_box {bottom: 5%; width: 80%; padding-right: 20px; padding-left: 20px; padding-top: 20px; padding-bottom: 20px; min-height: inherit;}
+    .hero_wrap .section1 .txt_box .t1 {font-size: 15px;}
+    .hero_wrap .section1 .txt_box .t1 span {line-height: 25px; padding: 0 15px;}
+    .hero_wrap .section1 .txt_box .t1 span:first-child {padding-right: 40px;}
+    .hero_wrap .section1 .txt_box .t2 {font-size: 36px;}
+    .hero_wrap .section1 .txt_box .t3 {font-size: 13px;}
+    .hero_wrap section:not(.section1) {padding: 0 10px; margin-bottom: 30px;}
+    .hero_wrap section:not(.section1) .ttl {margin-bottom: 15px; font-size: 17px;}
+    .hero_wrap section:not(.section1) .txt + .ttl {margin-top: 20px;}
+    .hero_wrap section:not(.section1) .txt {font-size: 14px;}
+    .hero_wrap .section8 a {height: 120px; padding-right: 10px;}
+    .hero_wrap .section8 .t1 {font-size: 17px;}
+    .hero_wrap .section8 .t2 {font-size: 14px;}
+
+
+    .quiz_wrap .section1 {padding: 35px 20px 0; background-position-y: -20px;}
+    .quiz_wrap .section1 .t1 {font-size: 17px; margin-bottom: 245px;}
+    .quiz_wrap .section1 .inner {padding: 26px 20px 18px;}
+    .quiz_wrap .section1 .inner .ttl {font-size: 18px;}
+    .quiz_wrap .section1 .inner .txt {font-size: 14px;}
+    .quiz_wrap .section2 {padding: 30px 20px 50px;}
+    .quiz_wrap .section2 .quiz_list > li {padding: 45px 0 20px 0;}
+    .quiz_wrap .section2 .quiz_list > li .num {left: -11px; width: 90px; height: 30px; padding-left: 40px; line-height: 32px; font-size: 14px;}
+    .quiz_wrap .section2 .quiz_list > li .num::before {width: 30px;}
+    .quiz_wrap .section2 .quiz_list > li .t1 {padding-left: 90px; padding-right: 20px; font-size: 16px;}
+    .quiz_wrap .section2 .quiz_list > li .t2 {padding-left: 90px; padding-right: 20px; font-size: 18px;}
+    .quiz_wrap .section2 .hint span {width: 45px; height: 45px; line-height: 45px; font-size: 18px; border-radius: 8px;}
+    .quiz_wrap .section2 .txt_box {padding: 0 10px;}
+    .quiz_wrap .section2 .txt_box p .ttl {font-size: 18px; width: 120px; height: 40px; line-height: 40px;}
+    .quiz_wrap .section2 .txt_box p .txt {font-size: 18px;}
+    .quiz_wrap .section2 .txt_box p.small .txt {font-size: 16px;}
+    .quiz_wrap .section2 .btn {width: 200px; height: 50px; line-height: 50px; font-size: 18px;}
+    .quiz_wrap .section3 {padding: 20px 50px 30px;}
+    .quiz_wrap .section3 .ttl {font-size: 18px;}
+    .quiz_wrap .section3 .box {padding: 20px 40px;}
+    .quiz_wrap .section3 .box > div {font-size: 16px;}
 }
